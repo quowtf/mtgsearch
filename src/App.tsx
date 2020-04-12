@@ -14,7 +14,7 @@ export default function App() {
     }
   }
   return (
-    <SafeAreaView style={{backgroundColor: 'rgb(248,248,248)'}}>
+    <SafeAreaView style={{backgroundColor: 'rgb(248,248,248)', flex: 1}}>
       {renderScreen()}
     </SafeAreaView>
   );
